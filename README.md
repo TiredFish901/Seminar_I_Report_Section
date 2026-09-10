@@ -1,2 +1,11 @@
-# Seminar-I-
-Seminar I Report
+# Seminar I 報告專區
+
+## 個人資料
+
+- 姓名：林榆傑
+- 系所：資訊工程系
+- 課程：Seminar I
+
+## 報告資料
+
+本專區用於整理與保存 Seminar I 課程的報告、簡報與相關資料。
