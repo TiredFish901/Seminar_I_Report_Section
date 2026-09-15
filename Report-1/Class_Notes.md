@@ -6,6 +6,6 @@
 有 node 就會有 faults node ，
 最重要先找壞點(faults node)
 ### 方法:互相測試
-
+![node](./image/report01-01.png)
 
 ### PMC Model:Preparata-Metze-Chien
