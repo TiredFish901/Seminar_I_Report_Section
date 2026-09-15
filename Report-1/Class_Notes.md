@@ -6,6 +6,16 @@
 有 node 就會有 faults node ，
 最重要先找壞點(faults node)
 ### 方法:互相測試
-![node](./image/report01-01.png)
-
+![node](../image/report01-01.png)
+由 i 節點測試 j 節點，正常為 0、故障為 1  
+由 j 節點測試 i 節點，正常為 0、故障為 1  
+只有正常節點去測試，結果會固定  
+故障節點去測試，結果為隨機  
+![node](../image/report01-02.png)
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+|---|---|---|---|---|---|---|---|
+|   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |
 ### PMC Model:Preparata-Metze-Chien
