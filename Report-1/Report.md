@@ -225,9 +225,7 @@ $$
 F_1 \text{ and } F_2
 $$
 
-為：
-
-**Distinguishable**
+為 **Distinguishable**
 
 也就是這兩種故障情況可以透過 Syndrome 加以區分。
 
