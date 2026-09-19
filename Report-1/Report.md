@@ -523,10 +523,10 @@ $$
 
 因此兩者可以整理為：
 
-| 類型 | Hypercube \(Q_n\) 的診斷度 |
+| 類型 | Hypercube Qₙ 的診斷度 |
 |---|---|
-| Diagnosability | \(n\) |
-| Conditional Diagnosability | \(4n-7\)，\(n\geq5\) |
+| Diagnosability | n |
+| Conditional Diagnosability | 4n − 7，n ≥ 5 |
 
 由此可以看出，在加入合理的故障分布條件後，可以明顯提升系統能夠診斷的故障節點數量。
 
