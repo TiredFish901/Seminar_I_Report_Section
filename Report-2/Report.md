@@ -18,4 +18,19 @@ Machine Learning Workflow 分為以下六個步驟：
 4. Train models：使用特徵建立及訓練模型。
 5. Iterate：反覆測試及調整，找出較合適的模型。
 6. Integrate：將訓練完成的模型整合至實際系統。
+
 醫療資料在進行人工智慧分析前，通常需要經過影像裁切、正規化、重新取樣、ROI 擷取等處理，避免不同影像設備或資料格式對模型造成過大的影響。
+
+### 2.2 深度學習與 OCT 影像預後預測
+第一個研究案例為使用深度學習模型預測特發性黃斑上膜手術後的視覺預後。
+黃斑上膜（ERM）是常見的視網膜疾病，患者可能接受手術治療，但即使術後黃斑厚度改善，視力恢復程度仍可能有所不同，因此研究嘗試從術前 OCT 影像直接預測患者術後的視力改善程度。
+研究使用的深度學習模型包括：
+- Inception-V3
+- ResNet-101
+- VGG-19
+OCT 影像經過 ROI cropping、resize 與 data augmentation 後輸入模型進行訓練，並透過 5-fold cross validation 評估模型表現。
+研究將術後一年視力改善分成兩類：
+- Pronounced Visual Improvement（P-IM）：術後 Snellen 視力表的視力表現較術前提升至少兩個行級。
+- Limited Visual Improvement（L-IM）：術後提升少於兩個行級。
+模型評估指標包含 Recall、Specificity、Precision、F1-score、Accuracy 與 AUC。研究結果顯示，ResNet-101 的整體預測表現較為穩定，外部驗證中 Accuracy 約為 0.92，而 Recall、Precision 及 F1-score皆約為 0.93。
+此外，研究使用 Grad-CAM（Gradient-weighted Class Activation Mapping） 產生 Heatmap，觀察模型在進行預測時關注 OCT 影像的哪些區域。透過熱圖可以將 AI 的判斷與視網膜微結構特徵進行對照，提高模型的可解釋性。
