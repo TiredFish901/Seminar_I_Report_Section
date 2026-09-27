@@ -32,5 +32,38 @@ OCT 影像經過 ROI cropping、resize 與 data augmentation 後輸入模型進�
 研究將術後一年視力改善分成兩類：
 - Pronounced Visual Improvement（P-IM）：術後 Snellen 視力表的視力表現較術前提升至少兩個行級。
 - Limited Visual Improvement（L-IM）：術後提升少於兩個行級。
+
 模型評估指標包含 Recall、Specificity、Precision、F1-score、Accuracy 與 AUC。研究結果顯示，ResNet-101 的整體預測表現較為穩定，外部驗證中 Accuracy 約為 0.92，而 Recall、Precision 及 F1-score皆約為 0.93。
+
 此外，研究使用 Grad-CAM（Gradient-weighted Class Activation Mapping） 產生 Heatmap，觀察模型在進行預測時關注 OCT 影像的哪些區域。透過熱圖可以將 AI 的判斷與視網膜微結構特徵進行對照，提高模型的可解釋性。
+
+## 2.3 Radiomics 放射組學
+第二個案例為利用形態定量與放射組學分析，預測兒童幕上低級別膠質瘤相關癲癇。
+Radiomics 的概念是將醫學影像轉換為大量可以量化的數值特徵，例如：
+- Shape features：形狀特徵
+- Intensity features：強度特徵
+- Texture features：紋理特徵
+- Location features：位置特徵
+
+研究先利用 T2-FLAIR MRI 找出腫瘤 ROI，接著進行 Spatial Normalization、Resampling、Resegmentation、Discretization 與 Intensity Normalization，再進行 Radiomics Feature Computation。
+研究總共由 218 個特徵中進行特徵選擇，其中包含 10 個腫瘤位置特徵及 208 個放射組學特徵。
+較重要的特徵包含：
+- Temporal lobe
+- Midbrain
+- High Dependence High Gray Level Emphasis
+- Elongation
+- Area Density
+- Information Correlation
+- Normalized Inverse Difference
+- Intensity Range
+
+研究結果顯示，單獨使用腫瘤位置或 Radiomics 已具有一定預測能力，而將兩者結合後可以進一步提高對癲癇發生的預測效果。
+其中 Linear SVM 的表現達到：
+- Precision：0.955
+- Recall：0.913
+- Specificity：0.960
+- Accuracy：0.938
+- F1-score：0.933
+- AUC：0.950
+
+可以看出，影像除了能讓醫師進行視覺判讀之外，也能轉換成大量量化特徵，再透過機器學習找出與疾病相關的重要資訊。
