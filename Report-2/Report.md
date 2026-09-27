@@ -219,3 +219,35 @@ SHAP 可以量化每項特徵對模型預測結果的影響程度，並利用 **
 ## 三、心得報告
 這次講座讓我更了解人工智慧在醫療領域中的實際應用，原本我認為 AI 醫療主要是利用影像辨識協助判斷疾病，但透過這次介紹的 OCT、MRI、EEG 與聽神經瘤等研究案例，我發現 AI 已經可以進一步應用在手術預後、藥物療效及長期治療反應的預測。其中讓我印象最深的是資料前處理與 Radiomics，因為原始醫療資料不能直接拿來訓練模型，還需要經過裁切、標準化、雜訊移除、ROI 分割及特徵擷取等步驟，而 Radiomics 更能將影像中的形狀、強度與紋理轉換成數值特徵，找出肉眼不容易察覺的差異。另外，聽神經瘤案例從 nnU-Net 自動分割腫瘤、計算體積與特徵，到利用機器學習預測治療結果，最後整合成 GUI，也讓我看到一個較完整的 AI 臨床應用流程。講座中介紹的 Grad-CAM 與 SHAP 也讓我了解到，醫療 AI 除了追求 Accuracy 之外，模型的可解釋性、資料品質、泛化能力與實際臨床使用方式也很重要。整體而言，我認為 AI 在醫療上的價值並不是取代醫師，而是結合醫師的專業知識與醫療資料，成為協助診斷、預測及治療決策的重要工具。
 
+## 四、關鍵字
+
+- 人工智慧（Artificial Intelligence）
+- 機器學習（Machine Learning）
+- 深度學習（Deep Learning）
+- 醫學影像（Medical Imaging）
+- OCT
+- MRI
+- EEG
+- Radiomics
+- nnU-Net
+- ResNet-101
+- Grad-CAM
+- SHAP
+- 特發性黃斑上膜（ERM）
+- 低級別膠質瘤
+- 癲癇
+- 重度憂鬱症（MDD）
+- 聽神經瘤（Vestibular Schwannoma）
+- Gamma Knife
+- 預後預測
+- 自動影像分割
+- 臨床決策輔助
+
+## 五、參考文獻
+1.Govetto, A., Bhavsar, K. V., Virgili, G., et al. (2017). Tractional abnormalities of the central foveal bouquet in epiretinal membranes: Clinical spectrum and pathophysiological perspectives. American Journal of Ophthalmology, 184, 167–180.
+
+2.American Academy of Ophthalmology. (2019). Basic and Clinical Science Course 2019–2020, Section 12: Retina and Vitreous. San Francisco: American Academy of Ophthalmology.
+
+3.Isensee, F., Jaeger, P. F., Kohl, S. A. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature Methods, 18(2), 203–211.
+
+4.Fouard, O., Daisne, J. F., Wanet, M., Regnier, M., & Gustin, T. (2021). Long-term volumetric analysis of vestibular schwannomas following stereotactic radiotherapy: Practical implications for follow-up. Clinical and Translational Radiation Oncology, 29, 1–6.
