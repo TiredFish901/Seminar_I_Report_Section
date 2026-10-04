@@ -141,3 +141,8 @@ R² 接近 1，代表模型預測值與實際值之間具有良好的關聯性�
 Gas Sensor、MEMS、Sensitivity、Selectivity、N-type、P-type、Microheater、Temperature & Humidity Compensation氣體感測器、MEMS、靈敏度、選擇性、N型、P型、微加熱器、溫濕度補償
 
 ## 五、參考文獻
+[1] B.-M. Huang, Y.-J. Hsiao, S.-C. Wang, and M. Lin, "Microheaters for thermal analysis and gas sensing applications," Sensors and Materials, vol. 36, no. 5, pp. 2097–2108, 2024.
+
+[2] Y.-T. Tsai, S.-J. Chang, I.-T. Tang, Y.-J. Hsiao, and L.-W. Ji, "High density novel porous ZnO nanosheets based on a microheater chip for ozone sensors," IEEE Sensors Journal, vol. 18, no. 14, pp. 5559–5565, 2018.
+
+[3] F. Udrea et al., "Design and simulations of SOI CMOS micro-hotplate gas sensors," Sensors and Actuators B: Chemical, vol. 78, no. 1-3, pp. 180–190, 2001.
