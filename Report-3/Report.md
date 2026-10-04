@@ -138,7 +138,7 @@ R² 接近 1，代表模型預測值與實際值之間具有良好的關聯性�
 其中我印象較深的是微型加熱器與溫濕度校正。感測器微型化不只是將尺寸縮小，還需要考慮加熱均勻性、功耗及耐久性；而實際環境中的溫度與濕度也會造成感測訊號漂移，因此即使硬體本身可以正常偵測氣體，仍需要透過校正模型提高資料的可靠度。這讓我了解到，一個完整的感測系統需要同時整合材料、硬體結構、感測電路與資料處理，才能讓實驗室中的感測結果真正應用於實際環境。
 
 ## 四、關鍵字
-Gas Sensor、MEMS、Sensitivity、Selectivity、N-type、P-type、Microheater、Temperature & Humidity Compensation氣體感測器、MEMS、靈敏度、選擇性、N型、P型、微加熱器、溫濕度補償
+Gas Sensor、MEMS、Sensitivity、Selectivity、N-type、P-type、Microheater、Temperature & Humidity Compensation
 
 ## 五、參考文獻
 [1] B.-M. Huang, Y.-J. Hsiao, S.-C. Wang, and M. Lin, "Microheaters for thermal analysis and gas sensing applications," Sensors and Materials, vol. 36, no. 5, pp. 2097–2108, 2024.
