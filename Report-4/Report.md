@@ -123,9 +123,6 @@ DSSC 的特色是將吸光與主要電子傳輸功能分別交由染料及半導
 | 光電轉換效率 | Power Conversion Efficiency（PCE） | 輸出電功率占入射光功率的比例 |
 
 ## 五、參考資料
-
-以下網路資料均可免費閱讀全文，無須購買文章或訂閱期刊。
-
 1. Selopal, G. S., et al. (2016). *Metal-free organic dyes for TiO₂ and ZnO dye-sensitized solar cells*. Scientific Reports, 6, 18756. https://www.nature.com/articles/srep18756
 2. Juang, S. S.-Y., et al. (2019). *Energy Harvesting Under Dim-Light Condition With Dye-Sensitized and Perovskite Solar Cells*. Frontiers in Chemistry, 7, 209. https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2019.00209/full
 3. U.S. Department of Energy. *Perovskite Solar Cells*. https://www.energy.gov/cmei/systems/perovskite-solar-cells
