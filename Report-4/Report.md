@@ -30,7 +30,7 @@
 
 染料敏化太陽能電池（Dye-Sensitized Solar Cell, DSSC）利用染料分子吸收光能，再將激發電子注入半導體。O’Regan 與 Grätzel 於 1991 年發表以染料敏化二氧化鈦薄膜為基礎的代表性研究。[1]
 
-典型液態電解液型 DSSC 包含以下元件：[2]
+典型液態電解液型 DSSC 包含以下元件：[1]
 
 | 元件 | 主要作用 |
 |---|---|
@@ -52,11 +52,11 @@ I 代表碘，I<sub>3</sub><sup>−</sup> 為三碘離子，I<sup>−</sup> 為�
 
 **流程：染料吸光 → 電子注入半導體 → 外部電路輸出電流 → 染料與電解液再生。**
 
-DSSC 的特色是將吸光與主要電子傳輸功能分別交由染料及半導體完成。若電子在輸出前發生復合，便會降低有效電流，因此染料設計、界面與電荷傳輸也是重要研究項目。[2]
+DSSC 的特色是將吸光與主要電子傳輸功能分別交由染料及半導體完成。若電子在輸出前發生復合，便會降低有效電流，因此染料設計、界面與電荷傳輸也是重要研究項目。[1]
 
 #### 2.2.3 應用與限制
 
-染料的吸收特性可透過分子設計調整，提供色彩與透光設計的可能性。特定 DSSC 已在室內環境光下展示發電能力，可作為低功耗裝置的能源來源研究方向。[3]
+染料的吸收特性可透過分子設計調整，提供色彩與透光設計的可能性。特定 DSSC 已在室內環境光下展示發電能力，可作為低功耗裝置的能源來源研究方向。[2]
 
 實際供電能力取決於光照強度、光譜、電池面積與負載功耗。室內光能利用仍需配合能源管理，不能直接推論一般手機可單靠教室照明完成充電。液態電解液型電池也需考量封裝密封性、電解液流失及長期性能維持。
 
@@ -64,7 +64,7 @@ DSSC 的特色是將吸光與主要電子傳輸功能分別交由染料及半導
 
 #### 2.3.1 基本概念與結構
 
-鈣鈦礦太陽能電池利用具有鈣鈦礦晶體結構的材料作為吸光層。太陽能領域常用的是金屬鹵化物鈣鈦礦，其薄膜吸收光能後產生電荷，再透過電池內其他材料引導電荷輸出。[4]
+鈣鈦礦太陽能電池利用具有鈣鈦礦晶體結構的材料作為吸光層。太陽能領域常用的是金屬鹵化物鈣鈦礦，其薄膜吸收光能後產生電荷，再透過電池內其他材料引導電荷輸出。[3]
 
 「鈣鈦礦」在此主要指材料的結構類型，不代表吸光材料一定含有鈣與鈦。典型元件包含透明導電電極、電子傳輸層、鈣鈦礦吸光層、電洞傳輸層及另一側電極；傳輸層的排列可因元件設計而不同。
 
@@ -82,14 +82,14 @@ DSSC 的特色是將吸光與主要電子傳輸功能分別交由染料及半導
 
 **流程：吸光層吸光 → 產生電子與電洞 → 傳輸層收集電荷 → 電極輸出電流。**
 
-鈣鈦礦薄膜具有高效率與降低製造成本的潛力。部分製程可使用溶液塗布或低溫處理，但實際成本仍取決於製程良率、封裝及壽命。另一個方向是將鈣鈦礦與矽電池結合成疊層電池，讓不同吸光層利用不同波段的光，以提高整體光能利用率。[4]
+鈣鈦礦薄膜具有高效率與降低製造成本的潛力。部分製程可使用溶液塗布或低溫處理，但實際成本仍取決於製程良率、封裝及壽命。另一個方向是將鈣鈦礦與矽電池結合成疊層電池，讓不同吸光層利用不同波段的光，以提高整體光能利用率。[3]
 
 #### 2.3.3 技術挑戰
 
 - **穩定性與壽命**：水氣、氧氣、光照、熱及電壓等因素可能造成材料或元件劣化。
 - **大面積製造**：需要維持薄膜均勻性與品質，減少小面積電池和大面積模組之間的性能差距。
 - **環境影響**：含鉛配方需考量元件損壞後的鉛外洩，以及回收與處理方式。
-- **性能驗證**：需要可比較的測試條件與長期資料，確認效率及耐用性。[5]
+- **性能驗證**：需要可比較的測試條件與長期資料，確認效率及耐用性。[4]
 
 ### 2.4 兩種太陽能電池的比較
 
@@ -124,6 +124,10 @@ DSSC 的特色是將吸光與主要電子傳輸功能分別交由染料及半導
 
 ## 五、參考資料
 
-1. O’Regan, B., & Grätzel, M. (1991). *A low-cost, high-efficiency solar cell based on dye-sensitized colloidal TiO₂ films*. Nature, 353, 737–740. https://doi.org/10.1038/353737a0
-2. Selopal, G. S., et al. (2016). *Metal-free organic dyes for TiO₂ and ZnO dye-sensitized solar cells*. Scientific Reports, 6, 18756. https://doi.org/10.1038/srep18756
-3. Freitag, M., et al. (2017). *Dye-sensitized solar cells for efficient power generation under ambient lighting*. Nature Photonics, 11, 372–378. https://doi.org/10.1038/nphoton.2017.60
+以下網路資料均可免費閱讀全文，無須購買文章或訂閱期刊。
+
+1. Selopal, G. S., et al. (2016). *Metal-free organic dyes for TiO₂ and ZnO dye-sensitized solar cells*. Scientific Reports, 6, 18756. https://www.nature.com/articles/srep18756
+2. Juang, S. S.-Y., et al. (2019). *Energy Harvesting Under Dim-Light Condition With Dye-Sensitized and Perovskite Solar Cells*. Frontiers in Chemistry, 7, 209. https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2019.00209/full
+3. U.S. Department of Energy. *Perovskite Solar Cells*. https://www.energy.gov/cmei/systems/perovskite-solar-cells
+4. U.S. Department of Energy. *Perovskite Research Directions*. https://www.energy.gov/cmei/systems/perovskite-research-directions。
+
