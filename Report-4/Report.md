@@ -123,11 +123,10 @@ DSSC 的特色是將吸光與主要電子傳輸功能分別交由染料及半導
 | 光電轉換效率 | Power Conversion Efficiency（PCE） | 輸出電功率占入射光功率的比例 |
 
 ## 五、參考資料
-[1] Selopal, G. S., Milan, R., Ghazy, M. A., Trimboli, M., Crupi, I., Vomiero, A., & Concina, I. (2016). Metal-free organic dyes for TiO₂ and ZnO dye-sensitized solar cells. Scientific Reports, 6, Article 18756. https://doi.org/10.1038/srep18756
+[1] G. S. Selopal et al., "Metal-free organic dyes for TiO₂ and ZnO dye-sensitized solar cells," Scientific Reports, vol. 6, art. no. 18756, 2016. https://www.nature.com/articles/srep18756
 
-[2] Juang, S. S.-Y., Lin, P.-Y., Lin, C.-C., Chou, C.-Y., & Shen, P.-S. (2019). Energy harvesting under dim-light condition with dye-sensitized and perovskite solar cells. Frontiers in Chemistry, 7, Article 209. https://doi.org/10.3389/fchem.2019.00209
+[2] S. S.-Y. Juang et al., "Energy harvesting under dim-light condition with dye-sensitized and perovskite solar cells," Frontiers in Chemistry, vol. 7, art. no. 209, 2019. https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2019.00209/full
 
-[3] U.S. Department of Energy. (n.d.). Perovskite solar cells. Retrieved October 11, 2026, from https://www.energy.gov/cmei/systems/perovskite-solar-cells
+[3] U.S. Department of Energy, "Perovskite Solar Cells." https://www.energy.gov/cmei/systems/perovskite-solar-cells
 
-[4] U.S. Department of Energy. (n.d.). Perovskite research directions. Retrieved October 11, 2026, from https://www.energy.gov/cmei/systems/perovskite-research-directions
-
+[4] U.S. Department of Energy, "Perovskite Research Directions." https://www.energy.gov/cmei/systems/perovskite-research-directions
